@@ -42,6 +42,8 @@ export default function Login() {
           </h2>
           <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">
             Inicia sesión para acceder al panel de administración
+            <br />
+            (Utiliza cualquier correo y contraseña)
           </p>
         </div>
 

@@ -4,22 +4,18 @@ import Header from '../ui/Header';
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
-  title: string;
+  title?: string;
 }
 
-const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, title }) => {
+const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, title = 'Dashboard' }) => {
   return (
-    <div className="flex h-screen bg-gray-50 dark:bg-gray-950">
-      {/* Sidebar - oculto en móvil por defecto */}
-      <div className="hidden md:block">
-        <Sidebar />
-      </div>
-
-      {/* Contenido principal */}
+    <div className="flex h-screen overflow-hidden">
+      <Sidebar />
+      
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header title={title} />
-
-        <main className="flex-1 overflow-y-auto p-4">
+        
+        <main className="flex-1 overflow-y-auto p-4 md:p-6">
           {children}
         </main>
       </div>
