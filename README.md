@@ -5,7 +5,7 @@
 El proyecto está organizado siguiendo la estructura de directorios de Next.js con la arquitectura App Router:
 
 ```
-ecommerce-dashboard/
+next-ecommerce-dashboard/
 ├── node_modules/         # Dependencias del proyecto
 ├── public/               # Archivos estáticos accesibles públicamente
 ├── src/                  # Código fuente de la aplicación
@@ -81,7 +81,7 @@ ecommerce-dashboard/
 1. Clona el repositorio:
    ```bash
    git clone <url-del-repositorio>
-   cd ecommerce-dashboard
+   cd next-ecommerce-dashboard
    ```
 
 2. Instala las dependencias:
