@@ -42,7 +42,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             name: 'Administrador',
             email: email,
             role: 'admin',
-            avatar: '/avatar.png'
+            avatar: 'https://w7.pngwing.com/pngs/420/567/png-transparent-avatar-male-man-portrait-avatars-xmas-giveaway-icon.png'
           };
 
           // Guardar usuario en el estado

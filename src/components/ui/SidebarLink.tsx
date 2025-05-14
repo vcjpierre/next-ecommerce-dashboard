@@ -19,7 +19,7 @@ const SidebarLink: React.FC<SidebarLinkProps> = ({ href, icon, label, active = f
                  ${active 
                    ? 'bg-primary-50 text-primary-700 dark:bg-primary-900 dark:text-primary-300' 
                    : 'hover:bg-gray-100 dark:hover:bg-gray-800'}`}
-      onClick={onClick} // Llamar al callback onClick cuando se hace clic
+      onClick={onClick}
     >
       <span className="text-lg">{icon}</span>
       <span className="text-sm font-medium">{label}</span>
